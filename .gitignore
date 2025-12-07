@@ -1,0 +1,56 @@
+# =========================
+# Sistem / OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Log files
+# =========================
+*.log
+
+# =========================
+# File konfigurasi sensitif (kalau ada)
+# =========================
+.env
+.env.*
+*.local.php
+*.backup.php
+
+# =========================
+# Composer / library PHP (kalau pakai)
+# =========================
+vendor/
+vendors/
+
+# =========================
+# Node / frontend tools (kalau nanti pakai)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Cache / build (kalau ada)
+# =========================
+.sass-cache/
+*.sass.cache
+build/
+dist/
+
+# =========================
+# Backup / hasil export (opsional)
+# =========================
+backup/
+*.bak
+*.sql.bak
